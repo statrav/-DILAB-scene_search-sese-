@@ -1,0 +1,1 @@
+docker run -d -p 4343:4343 --name sese --gpus all --shm-size 10g --rm -v $(pwd):/workspace -v $(pwd)/.cache:/root/.cache sese sleep infinity
